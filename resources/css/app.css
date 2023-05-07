@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table.striped-table {
+    @apply border border-slate-800;
+}
+
+table.striped-table tr {
+    @apply even:bg-slate-100
+}
+
+table.striped-table th,td {
+    @apply border border-slate-800 px-2;
+}
